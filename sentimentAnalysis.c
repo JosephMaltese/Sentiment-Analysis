@@ -25,6 +25,16 @@ int main()
 
     analyzeString(sentenceList, sentenceCount, wordList, wordCount);
 
+
+
+    // for (int i = 0; i< wordCount;i++) {
+    //     printf("word: %s, score: %.4f, sd: %.4f, list: [%d %d %d %d %d %d %d %d %d %d]\n", wordList[i].word, wordList[i]. score, wordList[i].SD, wordList[i].SIS_array[0],wordList[i].SIS_array[1],wordList[i].SIS_array[2],wordList[i].SIS_array[3],wordList[i].SIS_array[4],wordList[i].SIS_array[5],wordList[i].SIS_array[6],wordList[i].SIS_array[7],wordList[i].SIS_array[8],wordList[i].SIS_array[9]);
+    // }
+
+
+
+
+
     printf("               string sample                                                               score\n");
     printf("---------------------------------------------------------------------------------------------------------\n");
 

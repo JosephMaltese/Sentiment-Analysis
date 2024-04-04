@@ -18,7 +18,7 @@ struct sentences
 
 void readFromLexiconFile(char filename[], struct words **wordListPtr, int capacity, int *wordCount);
 
-void strToList(char *numStr, int *list);
+void strToList(char *numStr, int *list, int lineNum);
 
 void readFromValFile(char filename[], struct sentences **sentenceListPtr, int capacity, int *sentenceCount);
 
